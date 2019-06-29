@@ -2,9 +2,14 @@
 C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(91,13): warning C4244:  'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
 C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(292,23): warning C4018:  '<' : incompatibilité signed/unsigned
 C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(291): message :  pendant la compilation de la fonction membre classe modèle 'void Matrix<double>::show(void)'
-C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\neuronevo.cpp(25): message :  voir la référence à l'instanciation de la fonction modèle 'void Matrix<double>::show(void)' en cours de compilation
-C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\neuronevo.cpp(25): message :  voir la référence à l'instanciation classe modèle 'Matrix<double>' en cours de compilation
+C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\neuronevo.cpp(26): message :  voir la référence à l'instanciation de la fonction modèle 'void Matrix<double>::show(void)' en cours de compilation
+C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\neuronevo.cpp(26): message :  voir la référence à l'instanciation classe modèle 'Matrix<double>' en cours de compilation
 C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(294,24): warning C4018:  '<' : incompatibilité signed/unsigned
+C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(62,24): warning C4018:  '<' : incompatibilité signed/unsigned
+C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(58): message :  pendant la compilation de la fonction membre classe modèle 'Matrix<int>::Matrix(int,int)'
+C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\neuronevo.cpp(21): message :  voir la référence à l'instanciation de la fonction modèle 'Matrix<int>::Matrix(int,int)' en cours de compilation
+C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\neuronevo.cpp(18): message :  voir la référence à l'instanciation classe modèle 'Matrix<int>' en cours de compilation
+C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(65,25): warning C4018:  '<' : incompatibilité signed/unsigned
 C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(17,23): warning C4018:  '<' : incompatibilité signed/unsigned
 C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(13): message :  pendant la compilation de la fonction membre classe modèle 'Matrix<int>::Matrix(int,int,T **)'
 C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(13): message :         with
@@ -16,13 +21,12 @@ C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\neuronevo.cpp(18): message :
 C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\neuronevo.cpp(18): message :         [
 C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\neuronevo.cpp(18): message :             T=int
 C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\neuronevo.cpp(18): message :         ]
-C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\neuronevo.cpp(18): message :  voir la référence à l'instanciation classe modèle 'Matrix<int>' en cours de compilation
 C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(20,24): warning C4018:  '<' : incompatibilité signed/unsigned
 C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(78,23): warning C4018:  '<' : incompatibilité signed/unsigned
 C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(74): message :  pendant la compilation de la fonction membre classe modèle 'Matrix<double>::Matrix(const Matrix<double> &)'
 C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(171): message :  voir la référence à l'instanciation de la fonction modèle 'Matrix<double>::Matrix(const Matrix<double> &)' en cours de compilation
 C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(168): message :  pendant la compilation de la fonction membre classe modèle 'Matrix<double> Matrix<double>::transpose(void)'
-C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\neuronevo.cpp(25): message :  voir la référence à l'instanciation de la fonction modèle 'Matrix<double> Matrix<double>::transpose(void)' en cours de compilation
+C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\neuronevo.cpp(26): message :  voir la référence à l'instanciation de la fonction modèle 'Matrix<double> Matrix<double>::transpose(void)' en cours de compilation
 C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(81,24): warning C4018:  '<' : incompatibilité signed/unsigned
 C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(156,23): warning C4018:  '<' : incompatibilité signed/unsigned
 C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(154): message :  pendant la compilation de la fonction membre classe modèle 'Matrix<double> Matrix<double>::operator ~(void)'
@@ -32,10 +36,4 @@ C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(225,23): warning 
 C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(218): message :  pendant la compilation de la fonction membre classe modèle 'Matrix<double> Matrix<double>::operator =(const Matrix<double> &)'
 C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(170): message :  voir la référence à l'instanciation de la fonction modèle 'Matrix<double> Matrix<double>::operator =(const Matrix<double> &)' en cours de compilation
 C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(228,24): warning C4018:  '<' : incompatibilité signed/unsigned
-C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(62,24): warning C4018:  '<' : incompatibilité signed/unsigned
-C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(58): message :  pendant la compilation de la fonction membre classe modèle 'Matrix<double>::Matrix(int,int)'
-C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(155): message :  voir la référence à l'instanciation de la fonction modèle 'Matrix<double>::Matrix(int,int)' en cours de compilation
-C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(74): message :  pendant la compilation de la fonction membre classe modèle 'Matrix<double>::Matrix(const Matrix<double> &)'
-C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(171): message :  voir la référence à l'instanciation de la fonction modèle 'Matrix<double>::Matrix(const Matrix<double> &)' en cours de compilation
-C:\Users\badr-\Documents\GitHub\neuronevo\neuronevo\Matrix.cpp(65,25): warning C4018:  '<' : incompatibilité signed/unsigned
   neuronevo.vcxproj -> C:\Users\badr-\Documents\GitHub\neuronevo\Debug\neuronevo.exe

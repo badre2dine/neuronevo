@@ -154,7 +154,6 @@
     <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="neuronevo.cpp" />
     <ClCompile Include="NN.cpp" />
-    <ClCompile Include="ok.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Matrix.hpp" />

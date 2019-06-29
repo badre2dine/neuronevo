@@ -18,7 +18,8 @@ int main()
 	Matrix<int> m(2,2,arrayAloc<int, 2, 2>(new int[2][2]{ {1,0} ,{7,5} }));
 
 	
-
+	Matrix<int> s(30000, 30000);
+	
 	brain.addLayer(2, SIGMOID); 
 	brain.addLayer(10, SOFTAMAX);
 	brain.initial(RANDOM); 

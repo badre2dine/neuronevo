@@ -75,6 +75,11 @@ NN::~NN()
 	
 }
 
+Matrix<double> identity(Matrix<double>& m)
+{
+	return m;
+}
+
 Matrix<double> sigmoid(Matrix<double> &m)
 {
 	Matrix<double> result;
@@ -99,6 +104,62 @@ Matrix<double> softmax(Matrix<double>  &m)
 		result(0, i) = exp(m(0, i)) / sum;
 	}
 	
+	return result;
+}
+
+Matrix<double> tanH(Matrix<double>& m)
+{
+	Matrix<double> result;
+	result = m.map([](double x) {
+		return (exp(x) - exp(-x)) / (exp(x) + exp(-x));
+
+		});
+	return result;
+}
+
+Matrix<double> ReLu(Matrix<double>& m)
+{
+	Matrix<double> result;
+	result = m.map([](double x) {
+		return x < 0 ? -x : x;
+
+		});
+	return result;
+}
+
+Matrix<double> didentity(Matrix<double>& m)
+{
+	return Matrix<double>(m.getRow_size(),m.getCol_size());
+
+}
+
+Matrix<double> dsigmoid(Matrix<double>& m)
+{
+	Matrix<double> result;
+	result = m.map([](double x) {
+		return (1 / (1 + exp(-x)))*(1- (1 / (1 + exp(-x))));
+
+		});
+	return result;
+}
+
+Matrix<double> dtanH(Matrix<double>& m)
+{
+	Matrix<double> result;
+	result = m.map([](double x) {
+		return 1-((exp(x) - exp(-x)) / (exp(x) + exp(-x)))*((exp(x) - exp(-x)) / (exp(x) + exp(-x)));
+
+		});
+	return result;
+}
+
+Matrix<double> dReLu(Matrix<double>& m)
+{
+	Matrix<double> result;
+	result = m.map([](double x) {
+		return x < 0 ? 0 : 1.0;
+
+		});
 	return result;
 }
 
