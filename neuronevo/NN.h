@@ -2,10 +2,12 @@
 #include<vector>
 #include "Matrix.hpp"
 #include "Matrix.cpp"
-#define SIGMOID sigmoid
-#define SOFTAMAX softmax
-#define IDENTITY identity
-#define RANDOM random
+#define SIGMOID		sigmoid
+#define SOFTAMAX	softmax
+#define IDENTITY	identity
+#define RANDOM		random
+#define TANH		tanH
+#define RELU		ReLu
 class NN
 {
 	std::vector<Matrix<double>*> weights;

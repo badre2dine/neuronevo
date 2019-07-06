@@ -111,7 +111,7 @@ Matrix<double> tanH(Matrix<double>& m)
 {
 	Matrix<double> result;
 	result = m.map([](double x) {
-		return (exp(x) - exp(-x)) / (exp(x) + exp(-x));
+		return tanh(x);
 
 		});
 	return result;
@@ -147,7 +147,7 @@ Matrix<double> dtanH(Matrix<double>& m)
 {
 	Matrix<double> result;
 	result = m.map([](double x) {
-		return 1-((exp(x) - exp(-x)) / (exp(x) + exp(-x)))*((exp(x) - exp(-x)) / (exp(x) + exp(-x)));
+		return 1-(tanh(x))*(tanh(x));
 
 		});
 	return result;
